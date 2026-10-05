@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - AVA-EDUCA+</title>
+    <link rel="stylesheet" href="./login.css">
+    <link rel="icon" href="../assets/icons/favicon.png">
+</head>
+<body>
+    <div class="login-wrapper">
+        <img src="../assets/images/ava-logo.png" alt="AVA Logo Esquerda" class="logo-esquerda">
+        
+        <div class="login-container">
+            <h1>AVA-EDUCA+</h1>
+            <h2>Acesso ao sistema</h2>
+            
+            <form id="form-login">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="digite seu email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" placeholder="digite sua senha" required>
+                </div>
+                
+                <button type="submit" class="btn-entrar">Entrar</button>
+            </form>
+            
+            <a href="#" id="link-esqueci-senha" class="link-esqueci-senha">Esqueceu sua senha?</a>
+            
+            <div id="mensagem-erro" class="mensagem-erro"></div>
+        </div>
+        
+        <img src="../assets/images/ava-logo.png" alt="AVA Logo Direita" class="logo-direita">
+    </div>
+    
+    <script type="module" src="./login.js"></script>
+</body>
+</html>

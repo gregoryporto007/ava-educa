@@ -1,0 +1,35 @@
+#Arquivos de controle local e testes 
+readme2.md
+
+# Arquivos temporários e cache
+.tmp/
+.cache/
+
+# Dependências do Node
+node_modules/
+package-lock.json
+
+# Arquivos de log e depuração
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Configurações de editores e IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Builds e arquivos temporários de extensões (Live Server / Live Preview)
+.live-server/
+*.tmp
+*.bak
