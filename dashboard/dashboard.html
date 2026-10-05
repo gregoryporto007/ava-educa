@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - AVA-EDUCA+</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./dashboard.css">
+    <link rel="icon" href="../assets/icons/favicon.png">
+</head>
+<body>
+    <header class="header">
+        <div class="header-left">
+            <img src="../assets/icons/avaicon.png" alt="Logo" class="header-logo">
+            <h1>AVA-EDUCA+</h1>
+        </div>
+        <div class="header-right">
+            <p>Olá, <span id="nome-usuario-logado">Usuário</span></p>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <nav class="sidebar">
+            <ul class="sidebar-menu">
+                <li><a href="./dashboard.html" class="menu-link">Dashboard</a></li>
+                <li><a href="#" class="menu-link disabled">Cursos</a></li>
+                <li><a href="../cadastro-aluno/cadastro-aluno.html" class="menu-link">Cadastro de Alunos</a></li>
+                <li>
+                    <button id="btn-sair" class="btn-sair">
+                        <img src="../assets/icons/exit.svg" alt="Sair" class="exit-icon">
+                        Sair
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
+        <main class="content-area">
+            <h2>Meus Cursos</h2>
+            <div id="grid-cursos" class="grid-cursos"></div>
+        </main>
+    </div>
+
+    <script type="module" src="./dashboard.js"></script>
+</body>
+</html>
