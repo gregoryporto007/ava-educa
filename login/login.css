@@ -31,9 +31,11 @@ body {
     max-width: 400px;
 }
 
-.logo-esquerda,
-.logo-direita {
+.logo-aside {
     display: none;
+}
+
+.logo-aside img {
     width: 300px;
     height: auto;
     max-width: 75%;
@@ -42,8 +44,7 @@ body {
 }
 
 @media (min-width: 880px) {
-    .logo-esquerda,
-    .logo-direita {
+    .logo-aside {
         display: block;
     }
 }

@@ -23,7 +23,7 @@ if (!usuarioLogado) {
       gridCursos.innerHTML = "";
 
       cursos.forEach((curso) => {
-        const card = document.createElement("div");
+        const card = document.createElement("article");
         card.classList.add("curso-card");
 
         const nomeCurso = document.createElement("h3");

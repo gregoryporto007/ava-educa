@@ -6,13 +6,11 @@ const inputSenha = document.getElementById("senha");
 const mensagemErro = document.getElementById("mensagem-erro");
 const linkEsqueciSenha = document.getElementById("link-esqueci-senha");
 
-// Tratamento do clique em 'Esqueceu sua senha?' (RF01)
 linkEsqueciSenha.addEventListener("click", (event) => {
   event.preventDefault();
-  window.alert("Esta funcionalidade está em construção.");
+  window.alert("Funcionalidade ainda em construção. ");
 });
 
-// Tratamento da submissão do formulário de Login (RF01 / RF08)
 formLogin.addEventListener("submit", (event) => {
   event.preventDefault();
 

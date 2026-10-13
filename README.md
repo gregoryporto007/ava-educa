@@ -244,14 +244,14 @@ Você também pode usar outros servidores locais que suportem módulos ES6:
 
 ### Curto Prazo
 - Implementar funcionalidade "Esqueceu sua senha?"
-- Adicionar validação de CPF e telefone
+- Adicionar validação e cadastro com google e outras plataformas
 - Implementar máscaras de input (CPF, telefone, CEP)
-- Adicionar confirmação de senha no cadastro de usuários
+- Adicionar confirmação de senha no cadastro de usuários por email
 - Implementar edição de alunos cadastrados
-- Adicionar listagem de alunos no dashboard
+- Adicionar listagem de alunos no dashboard (para professores e administradores)
 
 ### Médio Prazo
-- Integrar com banco de dados real (MySQL, PostgreSQL, MongoDB)
+- Integrar com banco de dados real (MySQL ou PostgreSQL)
 - Implementar autenticação com JWT
 - Adicionar sistema de permissões (admin, professor, aluno)
 - Implementar upload de foto de perfil
@@ -259,9 +259,8 @@ Você também pode usar outros servidores locais que suportem módulos ES6:
 - Implementar busca e filtros nos cursos e alunos
 
 ### Longo Prazo
-- Desenvolver aplicação mobile (React Native ou Flutter)
+- Desenvolver WebApp
 - Implementar sistema de chat entre professor e alunos
-- Adicionar funcionalidade de fórum de discussão
 - Implementar sistema de avaliação e notas
 - Adicionar relatórios e estatísticas
 - Implementar sistema de certificados
@@ -269,6 +268,6 @@ Você também pode usar outros servidores locais que suportem módulos ES6:
 - Sistema de backup e restauração de dados
 
 ## Links de Entrega
-
-- [Vídeo de Apresentação]()
-- [Quadro Kanban (Trello)]()
+- [Link para o repositório no GitHub](https://github.com/gregoryporto007/ava-educa)
+- [Quadro Kanban (Trello)](https://trello.com/b/Zk8DCvS0/ava-educa)
+- [Vídeo de Apresentação](https://youtu.be/t8MiBE84OXg)
